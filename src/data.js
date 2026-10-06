@@ -37,7 +37,7 @@ export const experience = [
     period: 'Apr 2025 — Present',
     highlights: [
       'Reduced API latency by 40% by replacing N+1 microservice chains with a batched request model for fund manager data retrieval.',
-      'Engineered retry and circuit-breaker mechanisms, significantly reducing failure rates across dependent downstream services.',
+      'Engineered retry mechanisms, significantly reducing failure rates across dependent downstream services.',
       'Eliminated cumulative layout shift (CLS) on data-heavy dashboards, improving Core Web Vitals and perceived performance.',
       'Developing LLM-powered natural language search so fund managers can discover and compare investment products through conversational queries.',
     ],

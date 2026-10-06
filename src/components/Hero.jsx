@@ -5,7 +5,6 @@ const codeLines = [
   [['c', '// before: N+1 calls per fund manager']],
   [['k', 'const '], ['', 'funds = '], ['k', 'await '], ['f', 'batchFetch'], ['', '(managerIds, {']],
   [['', '  retry: '], ['n', '3'], ['', ',']],
-  [['', '  circuitBreaker: '], ['k', 'true'], ['', ',']],
   [['', '});']],
   [],
   [['c', '// p95 latency']],
