@@ -109,6 +109,11 @@ export const skills = [
 // Curated GitHub repos shown first. Any other public repos are fetched live from the GitHub API.
 export const featuredProjects = [
   {
+    name: 'Portfolio-Tracker',
+    description: 'Cross-platform investment portfolio tracker for iOS, Android and web, built with Expo Router and tab navigation. In progress.',
+    tech: ['React Native', 'Expo', 'TypeScript'],
+  },
+  {
     name: 'DragAndDrop',
     description: 'Drag-and-drop interface built in React using a DnD library.',
     tech: ['React', 'JavaScript'],
