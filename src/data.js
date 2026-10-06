@@ -94,7 +94,7 @@ export const skills = [
   },
   {
     group: 'Data & Cloud',
-    items: ['PostgreSQL', 'PL/SQL', 'AWS S3', 'Azure Active Directory', 'Microsoft Graph API'],
+    items: ['PostgreSQL', 'PL/SQL', 'AWS (Basic)', 'Azure Active Directory', 'Microsoft Graph API'],
   },
   {
     group: 'AI / LLM',
@@ -102,22 +102,12 @@ export const skills = [
   },
   {
     group: 'DevOps & Tools',
-    items: ['Docker', 'Kubernetes', 'Jenkins', 'CI/CD Pipelines', 'Git', 'Figma', 'Jira'],
+    items: ['Docker','CI/CD Pipelines', 'Git', 'Figma', 'Jira'],
   },
 ];
 
 // Curated GitHub repos shown first. Any other public repos are fetched live from the GitHub API.
 export const featuredProjects = [
-  {
-    name: 'Mcart-server',
-    description: 'E-commerce backend built with Node.js and Mongoose — products, carts and orders exposed through a REST API.',
-    tech: ['Node.js', 'Express', 'MongoDB'],
-  },
-  {
-    name: 'ChatApp',
-    description: 'Real-time chat application exploring socket-based messaging between users.',
-    tech: ['JavaScript', 'WebSockets'],
-  },
   {
     name: 'DragAndDrop',
     description: 'Drag-and-drop interface built in React using a DnD library.',
@@ -127,11 +117,6 @@ export const featuredProjects = [
     name: 'Portfolio-Api',
     description: 'API service backing a personal portfolio.',
     tech: ['Python'],
-  },
-  {
-    name: 'Next-app',
-    description: 'Experiments with Next.js and server-rendered React.',
-    tech: ['Next.js', 'React'],
   },
   {
     name: 'Angular-Form',

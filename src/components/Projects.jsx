@@ -3,7 +3,14 @@ import Section from './Section.jsx';
 import { featuredProjects, profile } from '../data.js';
 import { GitHubIcon, ArrowIcon } from './Icons.jsx';
 
-const HIDDEN = new Set(['demo', `${profile.githubUser}.github.io`]);
+const HIDDEN = new Set([
+  'demo',
+  `${profile.githubUser}.github.io`,
+  'Portfolio',
+  'Mcart-server',
+  'ChatApp',
+  'Next-app',
+]);
 
 // Curated repos come from data.js; descriptions and update dates are enriched live from GitHub.
 export default function Projects() {
