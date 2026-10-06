@@ -34,7 +34,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <Section id="projects" index="04" title="Projects">
+    <Section id="projects" index="05" title="Projects">
       <p className="section-lede">
         My client work at PIMCO is private, so these are personal projects from{' '}
         <a href={profile.github} target="_blank" rel="noreferrer">GitHub</a>: smaller explorations across the stack.

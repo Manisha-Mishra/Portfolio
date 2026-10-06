@@ -587,6 +587,56 @@ p {
   color: var(--navy);
 }
 
+/* ---------- Certifications ---------- */
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 18px;
+}
+
+.cert-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px 22px;
+  text-decoration: none;
+}
+
+.cert-link {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.cert-link:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+}
+
+.cert-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-muted);
+}
+
+.cert-link:hover .cert-top svg {
+  color: var(--accent);
+}
+
+.cert-card h3 {
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.cert-meta {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.cert-id {
+  font: 0.75rem var(--font-mono);
+  color: var(--text-muted);
+}
+
 /* ---------- Projects ---------- */
 .projects-grid {
   display: grid;

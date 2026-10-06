@@ -130,6 +130,47 @@ export const featuredProjects = [
   },
 ];
 
+export const certifications = [
+  {
+    name: 'Advanced Node.js: Scaling Applications',
+    issuer: 'LinkedIn Learning',
+    date: 'Dec 2021',
+    url: 'https://www.linkedin.com/learning/certificates/94f511cbf2fdec39d6246f878ce6d197f80781c91063c1cdc61b3046fffbc7d4',
+  },
+  {
+    name: 'SQL (Intermediate)',
+    issuer: 'HackerRank',
+    date: 'Jun 2021',
+    credentialId: '63359D7534DC',
+    url: 'https://www.hackerrank.com/certificates/63359d7534dc',
+  },
+  {
+    name: 'SQL (Basic)',
+    issuer: 'HackerRank',
+    date: 'Jun 2021',
+    credentialId: '7863F4149E73',
+    url: 'https://www.hackerrank.com/certificates/7863f4149e73',
+  },
+  {
+    name: 'React.js (Basic)',
+    issuer: 'CutShort',
+    date: 'Feb 2021',
+    expired: 'Feb 2022',
+    credentialId: '36144',
+  },
+  {
+    name: 'Node.js',
+    issuer: 'Udemy',
+    date: 'Oct 2020',
+  },
+  {
+    name: 'Problem Solving',
+    issuer: 'HackerRank',
+    date: 'Aug 2020',
+    url: 'https://www.hackerrank.com/certificates/605f35f537e8',
+  },
+];
+
 export const education = {
   degree: 'Bachelor of Engineering, Information Technology',
   school: 'Dhole Patil College of Engineering, Pune, India',
