@@ -152,13 +152,6 @@ export const certifications = [
     url: 'https://www.hackerrank.com/certificates/7863f4149e73',
   },
   {
-    name: 'React.js (Basic)',
-    issuer: 'CutShort',
-    date: 'Feb 2021',
-    expired: 'Feb 2022',
-    credentialId: '36144',
-  },
-  {
     name: 'Node.js',
     issuer: 'Udemy',
     date: 'Oct 2020',
